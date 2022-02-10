@@ -1,15 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+* {
+   /* CSS HEX */
+--russian-violet: #420039ff;
+--amaranth-m-p: #932f6dff;
+--french-mauve: #e07be0ff;
+--lavender-blue: #dcccffff;
+--magnolia: #f6f2ffff;
+}
 
-*{
-    9A7AA0
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #F5E5CDff;
 }
 
 
-img {
+#splash-image {
     width: 100vw
 }
+
 #info{
-    color: blueviolet
-    ;
+    color: var(--russian-violet);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:larger;
+    text-align:center;
+    background-color: var(--lemon-meringue);
     
 }
+
+p {
+    font-style: italic;
+}
+
+#email
+font-family: 'Josefin Sans', sans-serif;
+
+
+
+
+/* CSS HEX
+
+/* CSS HEX */
+--champagne: #F5E5CDff;
+--floral-white: #F8F4ECff;
+--umber: #634E41ff;
+--liver-chestnut: #987E64ff;
+--bone: #E0D7CCff;
+
+/* CSS HSL */
+--champagne: hsla(36, 67%, 88%, 1);
+--floral-white: hsla(40, 46%, 95%, 1);
+--umber: hsla(23, 21%, 32%, 1);
+--liver-chestnut: hsla(30, 21%, 49%, 1);
+--bone: hsla(33, 24%, 84%, 1);
+
+
+
