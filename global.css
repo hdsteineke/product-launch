@@ -6,6 +6,21 @@
 --french-mauve: #e07be0ff;
 --lavender-blue: #dcccffff;
 --magnolia: #f6f2ffff;
+
+/* CSS HEX */
+--champagne: #F5E5CDff;
+--floral-white: #F8F4ECff;
+--umber: #634E41ff;
+--liver-chestnut: #987E64ff;
+--bone: #E0D7CCff;
+
+/* CSS HSL */
+--champagne: hsla(36, 67%, 88%, 1);
+--floral-white: hsla(40, 46%, 95%, 1);
+--umber: hsla(23, 21%, 32%, 1);
+--liver-chestnut: hsla(30, 21%, 49%, 1);
+--bone: hsla(33, 24%, 84%, 1);
+
 }
 
 body {
@@ -31,27 +46,17 @@ p {
     font-style: italic;
 }
 
-#email
+#email {
 font-family: 'Josefin Sans', sans-serif;
+}
+
+.hide {
+    display: none;
+}
 
 
 
 
-/* CSS HEX
-
-/* CSS HEX */
---champagne: #F5E5CDff;
---floral-white: #F8F4ECff;
---umber: #634E41ff;
---liver-chestnut: #987E64ff;
---bone: #E0D7CCff;
-
-/* CSS HSL */
---champagne: hsla(36, 67%, 88%, 1);
---floral-white: hsla(40, 46%, 95%, 1);
---umber: hsla(23, 21%, 32%, 1);
---liver-chestnut: hsla(30, 21%, 49%, 1);
---bone: hsla(33, 24%, 84%, 1);
 
 
 
